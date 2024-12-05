@@ -1,0 +1,12 @@
+Source: ros-rolling-tuw-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-tuw-airskin-msgs, ros-rolling-tuw-geometry-msgs, ros-rolling-tuw-graph-msgs, ros-rolling-tuw-multi-robot-msgs, ros-rolling-tuw-nav-msgs, ros-rolling-tuw-object-map-msgs, ros-rolling-tuw-object-msgs, ros-rolling-tuw-std-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-tuw-airskin-msgs, ros-rolling-tuw-geometry-msgs, ros-rolling-tuw-graph-msgs, ros-rolling-tuw-multi-robot-msgs, ros-rolling-tuw-nav-msgs, ros-rolling-tuw-object-map-msgs, ros-rolling-tuw-object-msgs, ros-rolling-tuw-std-msgs, ros-rolling-ros-workspace
+Description: tuw_msgs meta package with write and read file libs for tuw_msgs
