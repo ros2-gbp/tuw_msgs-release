@@ -1,0 +1,55 @@
+ros-rolling-tuw-object-map-msgs (0.2.2-1noble) noble; urgency=high
+
+  * tuw_msgs update
+  * minor
+  * geo pose moved
+  * geo added
+  * tuw_object_map_msgs::msg::ObjectMap renamed to tuw_object_map_msgs::msg::Objects
+  * service renamed
+  * GetMap added
+  * code formatierung fixed
+  * Add GeoJSON msgs and Service Calls
+    * Add messages for the upcoming GeoJSON node
+    * Add Service Calls LoadMap and SaveMap for tuw_object_map
+  * Constant for trees added
+  * reformated
+  * unittest for tuw_object_map_msgs added
+  * Contributors: Alexander Lampalzer, Markus Bader
+  * minor
+  * geo pose moved
+  * geo added
+  * tuw_object_map_msgs::msg::ObjectMap renamed to tuw_object_map_msgs::msg::Objects
+  * service renamed
+  * GetMap added
+  * code formatierung fixed
+  * Add GeoJSON msgs and Service Calls
+    * Add messages for the upcoming GeoJSON node
+    * Add Service Calls LoadMap and SaveMap for tuw_object_map
+  * Constant for trees added
+  * reformated
+  * unittest for tuw_object_map_msgs added
+  * Contributors: Alexander Lampalzer, Markus Bader
+  * minor
+  * geo pose moved
+  * geo added
+  * tuw_object_map_msgs::msg::ObjectMap renamed to tuw_object_map_msgs::msg::Objects
+  * service renamed
+  * GetMap added
+  * code formatierung fixed
+  * Add GeoJSON msgs and Service Calls
+    * Add messages for the upcoming GeoJSON node
+    * Add Service Calls LoadMap and SaveMap for tuw_object_map
+  * Constant for trees added
+  * reformated
+  * unittest for tuw_object_map_msgs added
+  * Contributors: Alexander Lampalzer, Markus Bader
+
+ -- Markus Bader <markus.bader@tuwien.ac.at>  Thu, 28 Nov 2024 00:00:00 -0000
+
+ros-rolling-tuw-object-map-msgs (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Markus Bader <markus.bader@tuwien.ac.at>  Sun, 25 Jun 2023 00:00:00 -0000
+
+
