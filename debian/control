@@ -1,0 +1,12 @@
+Source: ros-jazzy-tuw-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tuw-airskin-msgs, ros-jazzy-tuw-geometry-msgs, ros-jazzy-tuw-graph-msgs, ros-jazzy-tuw-multi-robot-msgs, ros-jazzy-tuw-nav-msgs, ros-jazzy-tuw-object-map-msgs, ros-jazzy-tuw-object-msgs, ros-jazzy-tuw-std-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tuw-airskin-msgs, ros-jazzy-tuw-geometry-msgs, ros-jazzy-tuw-graph-msgs, ros-jazzy-tuw-multi-robot-msgs, ros-jazzy-tuw-nav-msgs, ros-jazzy-tuw-object-map-msgs, ros-jazzy-tuw-object-msgs, ros-jazzy-tuw-std-msgs, ros-jazzy-ros-workspace
+Description: tuw_msgs meta package with write and read file libs for tuw_msgs
