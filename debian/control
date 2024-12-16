@@ -1,0 +1,13 @@
+Source: ros-jazzy-tuw-object-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-cppcheck <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-generators, ros-jazzy-tuw-geo-msgs, ros-jazzy-tuw-geometry-msgs, ros-jazzy-tuw-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-tuw-object-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-tuw-geo-msgs, ros-jazzy-tuw-geometry-msgs, ros-jazzy-tuw-std-msgs, ros-jazzy-ros-workspace
+Description: The tuw_object_msgs package.
+ This pkg provides a set of messages used to detect, map and track objects of different types.
