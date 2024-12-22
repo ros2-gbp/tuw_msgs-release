@@ -2,6 +2,11 @@
 Changelog for package tuw_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.5 (2024-12-19)
+------------------
+* ament_lint_auto on build dependency added
+* Contributors: Markus Bader
+
 0.2.4 (2024-12-16)
 ------------------
 
