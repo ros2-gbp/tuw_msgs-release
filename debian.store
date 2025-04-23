@@ -1,1 +1,1 @@
-{"base": "5775a874", "parent": "debian/rolling/tuw_multi_robot_msgs", "previous": "04c73106", "trim": "", "trimbase": ""}
+{"base": "06c3034cc7fc", "parent": "debian/kilted/tuw_multi_robot_msgs", "previous": "241ab01b8d4e", "trim": "", "trimbase": ""}
