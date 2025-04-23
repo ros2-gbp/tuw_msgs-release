@@ -1,0 +1,12 @@
+Source: ros-kilted-tuw-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-cppcheck <!nocheck>, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-tuw-airskin-msgs, ros-kilted-tuw-geometry-msgs, ros-kilted-tuw-graph-msgs, ros-kilted-tuw-multi-robot-msgs, ros-kilted-tuw-nav-msgs, ros-kilted-tuw-object-map-msgs, ros-kilted-tuw-object-msgs, ros-kilted-tuw-std-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-tuw-airskin-msgs, ros-kilted-tuw-geometry-msgs, ros-kilted-tuw-graph-msgs, ros-kilted-tuw-multi-robot-msgs, ros-kilted-tuw-nav-msgs, ros-kilted-tuw-object-map-msgs, ros-kilted-tuw-object-msgs, ros-kilted-tuw-std-msgs, ros-kilted-ros-workspace
+Description: tuw_msgs meta package with write and read file libs for tuw_msgs
