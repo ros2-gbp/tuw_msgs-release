@@ -2,6 +2,9 @@
 Changelog for package tuw_multi_robot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2025-05-30)
+------------------
+
 0.2.5 (2024-12-19)
 ------------------
 * ament_lint_auto on build dependency added
