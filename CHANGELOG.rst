@@ -2,6 +2,9 @@
 Changelog for package tuw_graph_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2025-05-30)
+------------------
+
 0.2.5 (2024-12-19)
 ------------------
 * ament_lint_auto on test_depend added
