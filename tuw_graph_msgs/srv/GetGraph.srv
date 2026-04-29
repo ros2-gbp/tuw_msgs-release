@@ -1,4 +1,0 @@
-# Get the Graph as a tuw_graph_msgs/Graph
----
-# The current map hosted by this map service.
-Graph graph
