@@ -1,1 +1,0 @@
-tuw_std_msgs/Parameter[] data           # list of parameters
