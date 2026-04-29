@@ -1,0 +1,12 @@
+Source: ros-lyrical-tuw-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-tuw-airskin-msgs, ros-lyrical-tuw-geometry-msgs, ros-lyrical-tuw-graph-msgs, ros-lyrical-tuw-multi-robot-msgs, ros-lyrical-tuw-nav-msgs, ros-lyrical-tuw-object-map-msgs, ros-lyrical-tuw-object-msgs, ros-lyrical-tuw-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/tuw_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-tuw-airskin-msgs, ros-lyrical-tuw-geometry-msgs, ros-lyrical-tuw-graph-msgs, ros-lyrical-tuw-multi-robot-msgs, ros-lyrical-tuw-nav-msgs, ros-lyrical-tuw-object-map-msgs, ros-lyrical-tuw-object-msgs, ros-lyrical-tuw-std-msgs, ros-lyrical-ros-workspace
+Description: tuw_msgs meta package with write and read file libs for tuw_msgs
