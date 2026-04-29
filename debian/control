@@ -1,0 +1,13 @@
+Source: ros-lyrical-tuw-object-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-generators, ros-lyrical-tuw-geo-msgs, ros-lyrical-tuw-geometry-msgs, ros-lyrical-tuw-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/tuw_object_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-tuw-object-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-tuw-geo-msgs, ros-lyrical-tuw-geometry-msgs, ros-lyrical-tuw-std-msgs, ros-lyrical-ros-workspace
+Description: The tuw_object_msgs package.
+ This pkg provides a set of messages used to detect, map and track objects of different types.
